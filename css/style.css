@@ -6,8 +6,9 @@ Client: Productos Naen
 ****************************************/
 
 body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+    padding-bottom: 40px;
+    padding-top: ;
+    color: #5a5a5a;
 }
 
 .navbar-inverse {
@@ -45,8 +46,18 @@ body {
 /* Carousel base class */
 .carousel {
   height: 450px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
+
+    .carousel-1 {
+        height: 200px;
+    }
+
+    .carousel-1 .item {
+      height: 200px;
+      background-color: #b24141;
+    }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -65,6 +76,8 @@ body {
   height: 450px;
 }
 
-.txt-center{
-    text-align: center;
+/* Primera pleca*/
+.impres {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
