@@ -49,15 +49,6 @@ body {
   margin-bottom: 0px;
 }
 
-    .carousel-1 {
-        height: 200px;
-    }
-
-    .carousel-1 .item {
-      height: 200px;
-      background-color: #b24141;
-    }
-
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -76,8 +67,64 @@ body {
   height: 450px;
 }
 
-/* Primera pleca*/
+/* PRIMERA PLECA*/
 .impres {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/*PLECAS
+---------------------------------------------------*/
+
+.margenAB{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.bg-dos {
+    color: #fff;
+    background-color: #ff8925;
+}
+
+.bg-tres{
+    color: #fff;
+    background-color: #05be3e;
+}
+
+.bg-gris{
+    background-color: #f7f7f7;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.centrado{
+
 }
