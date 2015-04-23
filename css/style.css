@@ -19,6 +19,10 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+nav {
+    margin-bottom: 0px;
+}
 .navbar-wrapper {
   position: fixed;
   top: 0;
@@ -38,6 +42,10 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+}
+
+.navbar-paddoff{
+    padding: 0px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -125,6 +133,14 @@ body {
   letter-spacing: -1px;
 }
 
-.centrado{
 
+
+
+footer{
+    background-color: #1e40ff;
+    color: #fff;
+    height: 5em;
+    padding: 1.5em;
 }
+
+

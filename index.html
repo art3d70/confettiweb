@@ -13,10 +13,18 @@
 <body>
 <!-- NAVBARS
 ================================================== -->
-
-        <header class="container-fluid">
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-              <div class="container">
+        <header>
+            <section class="container impres">
+                <div class="row logo-header">
+                    <figure class="col-md-4"><img src="http://lorempixel.com/300/150" alt=""></figure>
+                    <article class="col-md-8">
+                        <p class="text-right">links de social media</p>
+                    </article>
+                </div>
+            </section>
+           <div class="container navbar-paddoff">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
                 <div class="navbar-header">
 <!--Menu movil -->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,7 +37,7 @@
                 </div>
 
                 <div id="navbar" class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav">
+                  <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Inicio</a></li>
                     <li><a href="#product">Productos</a></li>
 
@@ -49,14 +57,17 @@
                     <li><a href="#contact">Contacto</a></li>
                   </ul>
                 </div>
+
               </div>
             </nav>
+        </div>
+
         </header>
 
 <!-- Carousel
 ================================================== -->
 
-    <section id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <section id="myCarousel" class="carousel slide container" data-ride="carousel" data-interval="5000">
 <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -67,8 +78,8 @@
         <div class="carousel-inner" role="listbox">
 <!--Slide 1-->
             <div class="item active">
-              <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-              <div class="container">
+              <img class="first-slide img-responsive" src="http://lorempixel.com/1200/450" alt="First slide">
+              <div class="ontainer">
                 <div class="carousel-caption">
                   <h2>Conoce nuestros nuevos Productos</h2>
                   <p>Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida .</p>
@@ -78,7 +89,7 @@
             </div>
 <!--Slide 2-->
             <div class="item">
-              <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+              <img class="second-slide" src="http://lorempixel.com/1200/450" alt="Second slide">
               <div class="container">
                 <div class="carousel-caption">
                   <h2>Los mejores Productos.</h2>
@@ -89,7 +100,7 @@
             </div>
 <!--Slide 3-->
             <div class="item">
-              <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+              <img class="third-slide" src="http://lorempixel.com/1200/450" alt="Third slide">
               <div class="container">
                 <div class="carousel-caption">
                   <h2>Búscanos en tu tienda favorita</h2>
@@ -115,8 +126,8 @@
 <!-- Bienvenidos
 ================================================   -->
 
-    <section class="container-fluid bg-primary">
-        <article class="container text-center impres">
+    <section class="container bg-primary">
+        <article class=" text-center impres">
             <h2>Bienvenidos a Confetti</h2>
             <h4>La mágia hecha color</h4>
         </article>
@@ -176,7 +187,7 @@
             <article class="col-lg-4">
                 <img class="img-rounded" src="http://lorempixel.com/200/200" alt="Generic placeholder image" >
                 <h2>Diges Loom</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rem error ut, adipisci sed beatae fugit i </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi molestias rem inventore ipsum impedit m.</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </article><!-- /.col-lg-4 -->
 
@@ -187,31 +198,47 @@
 
 <!--Proyectos-->
 
-        <section class="row featurette">
+        <section class="row featurette center-block">
 
-            <article class="col-md-7 centrado">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <article class="col-md-7">
+                <h2 class="featurette-heading">Proyecto uno. <span class="text-muted">It'll blow your mind.</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,.</p>
             </article>
 
             <article class="col-md-5">
-                <img class="featurette-image img-responsive center-block" src="http://lorempixel.com/400/400">
+                <img class="featurette-image img-responsive center-block" src="http://lorempixel.com/450/250">
             </article>
 
         </section>
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
+        <section class="row featurette">
 
+            <article class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">Proyecto 2. <span class="text-muted">See for yourself.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </article>
+
+            <article class="col-md-5 col-md-pull-7">
+                <img class="featurette-image img-responsive center-block" src="http://lorempixel.com/450/250">
+            </article>
+        </section>
+
+<hr class="featurette-divider">
+
+        <section class="row featurette center-block">
+
+            <article class="col-md-7">
+                <h2 class="featurette-heading">Proyecto 3. <span class="text-muted">It'll blow your mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,.</p>
+            </article>
+
+            <article class="col-md-5">
+                <img class="featurette-image img-responsive center-block" src="http://lorempixel.com/450/250">
+            </article>
+
+        </section>
 
 
 
@@ -221,14 +248,14 @@
 <!-- Pleca "Encuentranos en:"
 ===============================================    -->
 
-    <section class="container-fluid bg-tres">
-        <article class="container text-right impres">
+    <section class="container bg-tres">
+        <article class="container text-left impres">
             <h3>Busca nuestros productos en:</h3>
         </article>
     </section>
 
  <!-- FOOTER -->
-      <footer>
+      <footer class="container impres">
         <p class="pull-right"><a href="#">Volver arriba</a></p>
         <p>&copy; 2015 Productos Naen &middot; </p>
       </footer>
