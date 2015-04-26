@@ -6,47 +6,122 @@ Client: Productos Naen
 ****************************************/
 
 body {
-    padding-bottom: 40px;
-    padding-top: ;
+    padding-bottom: 20px;
     color: #5a5a5a;
 }
 
-.navbar-inverse {
-    background:#222a3b ;
+/* Social icons
+--------------------------------------------------*/
+
+    .social-bar ul{
+        list-style: none;
+        overflow: hidden;
+    }
+
+        .social-bar ul li{
+            float: right;
+
+        }
+
+            .social-bar ul li a{
+                display: block;
+                padding: 25px 15px;
+                margin-right: 8px;
+                color: #fff;
+                text-decoration: none;
+
+            }
+
+.pinterest{
+    background: #db1313;
+}
+.youtube{
+    background: #b71414;
+}
+.twitter{
+    background: #126dc9;
+}
+.face{
+    background: #1033f2;
 }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-
 nav {
     margin-bottom: 0px;
 }
-.navbar-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
 
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-
-.navbar-paddoff{
+.paddoff{
     padding: 0px;
     margin-bottom: -20px
+}
+
+.navbar-default {
+    background-color: #f42626;
+    border-color: #f42626;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background: #ff4a3b;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #ff4a3b;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #ff4a3b;
+}
+
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -72,8 +147,8 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 450px;
+/*  min-width: 100%;*/
+/*  height: 450px;*/
 }
 
 /* PRIMERA PLECA*/
@@ -133,9 +208,6 @@ nav {
   line-height: 1;
   letter-spacing: -1px;
 }
-
-
-
 
 footer{
     background-color: #1e40ff;
