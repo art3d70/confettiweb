@@ -7,6 +7,7 @@
 
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,9 +17,9 @@
         <header>
             <section class="container logo">
                 <div class="row logo-header">
-                    <figure class="col-md-5"><img src="img/logo.png" alt=""></figure>
+                    <figure class="col-sm-5"><img src="img/logo.png" alt=""></figure>
 
-                    <article class="col-md-7 social-bar">
+                    <article class="col-sm-7 social-bar">
                         <ul>
                             <li><a href="#" class="pinterest">P</a></li>
                             <li><a href="#" class="youtube">Y</a></li>
@@ -53,13 +54,11 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ideas <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="#" class="lead">Blog</a></li>
+                        <li class="dropdown-header">Ideas Paso a Paso</li>
+                        <li class="divider"></li>
+                        <li><a href="#" >Blog</a></li>
                         <li><a href="#">Videos</a></li>
                         <li><a href="#">Galería</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
                       </ul>
                     </li>
                     <li><a href="#contact">Tienda</a></li>
@@ -79,57 +78,51 @@
     <section class="container paddoff" >
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
 <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-        <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" role="listbox">
 <!--Slide 1-->
-            <div class="item active">
-              <img class="first-slide img-responsive" src="http://lorempixel.com/1170/450" alt="">
-              <div class="ontainer">
-                <div class="carousel-caption">
-                  <h2>Conoce nuestros nuevos Productos</h2>
-                  <p>Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida .</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Productos</a></p>
+                <div class="item active">
+                  <img class="img-responsive" src="http://lorempixel.com/1170/450/city/1" alt="">
+                    <div class="carousel-caption hidden-xs">
+                      <h2>Conoce nuestros nuevos Productos</h2>
+                      <p>Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida Aquí podemos porner</p>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Productos</a></p>
+                    </div>
                 </div>
-              </div>
-            </div>
 <!--Slide 2-->
-            <div class="item">
-              <img class="second-slide" src="http://lorempixel.com/1170/450" alt="">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h2>Los mejores Productos.</h2>
-                  <p>Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida .</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
+                <div class="item">
+                  <img class="" src="http://lorempixel.com/1170/450/city/2" alt="">
+                    <div class="carousel-caption hidden-xs">
+                      <h2>Los mejores Productos.</h2>
+                      <p>Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida Aquí podemos porner</p>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
+                    </div>
                 </div>
-              </div>
-            </div>
 <!--Slide 3-->
-            <div class="item">
-              <img class="third-slide" src="http://lorempixel.com/1170/450" alt="">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h2>Búscanos en tu tienda favorita</h2>
-                  <p>Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida .</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Contacto</a></p>
+                <div class="item">
+                  <img class="" src="http://lorempixel.com/1170/450/city/3" alt="">
+                    <div class="carousel-caption hidden-xs">
+                      <h2>Búscanos en tu tienda favorita</h2>
+                      <p>Aquí podemos porner algo de info rápida Aquí podemos porner algo de info rápida Aquí podemos porner</p>
+                      <p><a class="btn btn-lg btn-primary" href="#" role="button">Contacto</a></p>
+                    </div>
                 </div>
-              </div>
+
             </div>
 
-        </div>
-
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+            <a class="left carousel-control hidden-xs" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control hidden-xs" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
 
         </div>
     </section><!-- /.carousel -->
@@ -137,7 +130,7 @@
 <!-- Bienvenidos
 ================================================   -->
 
-    <section class="container bg-primary">
+    <section class="container bg-tres">
         <article class=" text-center impres">
             <h2>Bienvenidos a Confetti</h2>
             <h4>La mágia hecha color</h4>
@@ -155,7 +148,7 @@
            </article>
            <article class="col-md-5 col-sm-5">
               <h2 class="featurette-heading">Quienes <span class="text-muted">somos</span></h2>
-               <p class="lead">Somos una empresa fabricante e importadora de productos para manualidades con calidad profesional pero a un precio accesible. <br> <br> Distribuimos nuestros productos dentro y fuera de México procurando siempre el mejor servicio para nuestros clientes.</p><br>
+               <p class="lead">Somos una empresa fabricante e importadora de productos para manualidades con calidad profesional pero a un precio accesible. <br><br> Distribuimos nuestros productos dentro y fuera de México procurando siempre el mejor servicio para nuestros clientes.</p><br>
            </article>
 
         </div>
@@ -180,21 +173,21 @@
       <!-- Three columns of text below the carousel -->
         <div class="row">
 
-            <article class="col-lg-4">
+            <article class="col-md-4">
                 <img class="img-rounded" src="http://lorempixel.com/300/200" alt="Generic placeholder image" >
                 <h2>Confetti Loom</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quo amet necessitatibus temporibus expedita, </p>
                 <p><a class="btn btn-default" href="#" role="button">Ver detalle &raquo;</a></p>
             </article><!-- /.col-lg-4 -->
 
-            <article class="col-lg-4">
+            <article class="col-md-4">
                 <img class="img-rounded" src="http://lorempixel.com/300/200" alt="Generic placeholder image" >
                 <h2>Ligas Loom</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi molestias rem inventore ipsum impedit m.</p>
                 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </article><!-- /.col-lg-4 -->
 
-            <article class="col-lg-4">
+            <article class="col-md-4">
                 <img class="img-rounded" src="http://lorempixel.com/300/200" alt="Generic placeholder image" >
                 <h2>Diges Loom</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi molestias rem inventore ipsum impedit m.</p>
@@ -269,15 +262,15 @@
       <!-- Three columns of text below the carousel -->
         <div class="row margenAB ">
 
-            <article class="col-lg-4">
+            <article class="col-md-4">
                 <img class="img-rounded" src="http://lorempixel.com/250/150" alt="" >
             </article><!-- /.col-lg-4 -->
 
-            <article class="col-lg-4">
+            <article class="col-md-4">
                 <img class="img-rounded" src="http://lorempixel.com/250/150" alt="" >
             </article><!-- /.col-lg-4 -->
 
-            <article class="col-lg-4">
+            <article class="col-md-4">
                 <img class="img-rounded" src="http://lorempixel.com/250/150" alt="" >
             </article><!-- /.col-lg-4 -->
 
@@ -287,7 +280,7 @@
  <!-- FOOTER -->
       <footer class="container">
         <p class="pull-right"><a href="#">Volver arriba</a></p>
-        <p class="lead">&copy; 2015 Productos Naen &middot; </p>
+        <p class="">&copy; 2015 Productos Naen &middot; </p>
       </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
