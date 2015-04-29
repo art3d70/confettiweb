@@ -12,6 +12,9 @@ body {
     padding-bottom: 20px;
 }
 
+.textura {
+    background-image:url(/img/textura_.jpg);
+}
 /* Social icons
 --------------------------------------------------*/
 
@@ -25,43 +28,45 @@ body {
         .social-bar ul li a{
             color: #fff;
             display: block;
+            font-size: 18px;
             margin-right: 8px;
-            padding: 25px 15px;
+            padding: 25px 12px;
             text-decoration: none;
         }
 
 @media (max-width: 768px){
     .social-bar ul li a {
         padding: 10px 17px;
+        margin-right: 3px;
     }
 }
 
 .pinterest{
-    background: #db1313;
+    background: #cb2027;
 }
     .pinterest:hover{
-        background:#9b1010;
+        background:#b10209;
     }
 
 .youtube{
-    background: #b71414;
+    background: #d71e17;
 }
     .youtube:hover{
-        background: #7e0e0e;
+        background: #ac0600;
     }
 
 .twitter{
-    background: #126dc9;
+    background: #00aced;
 }
     .twitter:hover{
-        background: #0d457e;
+        background: #0481b1;
     }
 
 .face{
-    background: #1033f2;
+    background: #3b5998;
 }
     .face:hover {
-        background: #00189b;
+        background: #153f96;
     }
 
 
@@ -235,12 +240,12 @@ body {
 }
 
 .bg-dos {
-    background: #ff8925;
+    background: #faaf40;
     color: #fff;
 }
 
 .bg-tres{
-    background: #05be3e;
+    background: #8bc53f;
     color: #fff;
 }
 
@@ -248,10 +253,17 @@ body {
     background: #f7f7f7;
 }
 
-/* MARKETING CONTENT
+/* Productos
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
+.impres h2 i{
+    font-size: 18px;
+}
+
+.productos div{
+    padding-top: 30px;
+}
+
 .marketing .col-md-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -264,11 +276,15 @@ body {
   margin-left: 10px;
 }
 
-/* Featurettes
+/* PROYECTOS
 ------------------------- */
 
+.featurette{
+    padding: 25px 0px;
+}
+
 .featurette-divider {
-  margin: 50px 0; /* Space out the Bootstrap <hr> more */
+    margin: 15px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -278,9 +294,27 @@ body {
   letter-spacing: -1px;
 }
 
+/*NOTICIAS
+-------------------------*/
+
+.bg-tres i{
+    font-size: 18px;
+}
+
 footer{
-    background-color: #1e40ff;
+    background-color: #652d90;
     color: #fff;
-    height: 5em;
+    height: 4.5em;
     padding: 1.5em;
 }
+
+    footer p a {
+        color:#fff;
+    }
+
+    footer a:hover{
+        color:#b1b1b1;
+    }
+
+
+
