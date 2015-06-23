@@ -265,3 +265,6 @@ footer p a {
 footer p a:hover {
   color: #b1b1b1;
 }
+.contacto p {
+  line-height: 2em;
+}
